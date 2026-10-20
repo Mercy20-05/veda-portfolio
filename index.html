@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional Responsive Personal Portfolio Website" />
+  <title>John Doe | Frontend Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">John<span>.Dev</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="greeting">Hi there, I'm</p>
+          <h1 class="hero-name">John Doe</h1>
+          <h2 class="hero-role">Aspiring Frontend Developer & Software Engineer</h2>
+          <p class="hero-description">
+            Passionate about building responsive, accessible, and high-performance web applications using modern web technologies.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-card">
+            <h3>Background</h3>
+            <p>
+              I am an energetic computer science student and developer focused on creating intuitive digital experiences. I specialize in turning complex problems into elegant, user-friendly interface designs.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Focus Areas</h3>
+            <p>
+              My primary focus lies in semantic web structure, responsive UI engineering, clean architecture, and modern JavaScript development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>HTML5</h3>
+            <p>Semantic markup, Web Accessibility, SEO best practices</p>
+          </div>
+          <div class="skill-card">
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, Media Queries, Custom Properties, Animations</p>
+          </div>
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>DOM Manipulation, ES6+ features, Event Handling, APIs</p>
+          </div>
+          <div class="skill-card">
+            <h3>Version Control</h3>
+            <p>Git workflow, GitHub repo management, branch collaboration</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tooling</h3>
+            <p>VS Code, Chrome DevTools, Linters, npm</p>
+          </div>
+          <div class="skill-card">
+            <h3>Soft Skills</h3>
+            <p>Problem-solving, Team Collaboration, Technical Documentation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-info">
+              <h3>E-Commerce Landing Page</h3>
+              <p>A fully responsive product showcase built with CSS Grid and modern transitions.</p>
+              <div class="tech-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link">Live Demo</a>
+                <a href="#" class="btn-link">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-info">
+              <h3>Task Management Dashboard</h3>
+              <p>An interactive productivity web app supporting local storage and filterable tasks.</p>
+              <div class="tech-tags">
+                <span>JavaScript</span>
+                <span>DOM API</span>
+                <span>Flexbox</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link">Live Demo</a>
+                <a href="#" class="btn-link">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-info">
+              <h3>Weather Forecast App</h3>
+              <p>Real-time location-based weather tracking leveraging OpenWeatherMap REST API.</p>
+              <div class="tech-tags">
+                <span>Fetch API</span>
+                <span>Async/Await</span>
+                <span>CSS3</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link">Live Demo</a>
+                <a href="#" class="btn-link">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Experience Section -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <h2 class="section-title">Education & Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">2024 - Present</span>
+            <h3>Frontend Web Development Intern</h3>
+            <h4>Veda Technology</h4>
+            <p>Collaborated on user interface components, responsive layout fixes, and cross-browser accessibility improvements.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">2021 - 2025</span>
+            <h3>B.Tech in Computer Science & Engineering</h3>
+            <h4>State Technical University</h4>
+            <p>Completed coursework in Data Structures, Web Engineering, Database Systems, and Object-Oriented Programming.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" />
+            <small class="error-msg" id="nameError"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="example@domain.com" />
+            <small class="error-msg" id="emailError"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+            <small class="error-msg" id="messageError"></small>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit-btn">Send Message</button>
+          <div class="form-feedback" id="formFeedback"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 John Doe. Built for Veda Technology Internship.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
